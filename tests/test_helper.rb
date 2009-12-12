@@ -14,7 +14,7 @@ gem 'actionpack'
 require 'action_controller'
 
 #my bits
-require 'better_filter_chain'
+require 'deferred_filter_chain'
 
 # some useful assertions
 
