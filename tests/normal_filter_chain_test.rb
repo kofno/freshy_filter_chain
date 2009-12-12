@@ -14,6 +14,8 @@ class NormalFilterChainTest < Test::Unit::TestCase
     def child_filter; puts "from the mouths of babes";end
   end
 
+  ::ActionController::Base.build_filter_chain
+
   def app_filter_chain
     ApplicationController.filter_chain
   end
@@ -23,6 +25,10 @@ class NormalFilterChainTest < Test::Unit::TestCase
   end
 
   context "The ApplicationController" do
+
+    should "inherited filters be the same" do
+      assert_equal app_filter_chain.first, child_filter_chain.first
+    end
 
     should 'have one filter' do
       assert_equal 1, app_filter_chain.size
