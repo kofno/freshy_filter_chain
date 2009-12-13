@@ -2,7 +2,7 @@ require 'rubygems'
 require 'test/unit'
 
 # tests are now awesome
-gem 'thoughtbot-shoulda'
+gem 'shoulda'
 require 'shoulda'
 
 # pretty colors
