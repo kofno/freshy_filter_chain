@@ -18,8 +18,6 @@ class ReopenParentControllerFilterChainTest < Test::Unit::TestCase
     def new_stuff_baby; puts "yeah!"; end
   end
 
-  ::ActionController::Base.build_filter_chain
-
   def app_filter_chain
     ApplicationController.filter_chain
   end

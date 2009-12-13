@@ -14,8 +14,6 @@ class NormalFilterChainTest < Test::Unit::TestCase
     def child_filter; puts "from the mouths of babes";end
   end
 
-  ::ActionController::Base.build_filter_chain
-
   def app_filter_chain
     ApplicationController.filter_chain
   end
