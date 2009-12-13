@@ -16,7 +16,13 @@ begin
     gemspec.email = "ryan.l.bell@gmail.com"
     gemspec.homepage = "http://github.com/kofno/freshy_filter_chain"
     gemspec.authors = ["Ryan L. Bell"]
+
+    gemspec.add_development_dependency "thoughtbot-shoulda", "= 2.10.2"
+    gemspec.add_development_dependency "redgreen", "= 1.2.2"
+
+    gemspec.add_dependency "actionpack", ">= 2.3.0"
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler not available. Install with: gem install jeweler"
 end
