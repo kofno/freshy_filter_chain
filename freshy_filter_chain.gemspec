@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{freshy_filter_chain}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ryan L. Bell"]
@@ -17,10 +17,12 @@ Gem::Specification.new do |s|
      "README.markdown"
   ]
   s.files = [
-    "LICENSE",
+    ".gitignore",
+     "LICENSE",
      "README.markdown",
      "Rakefile",
      "VERSION",
+     "freshy_filter_chain.gemspec",
      "init.rb",
      "lib/freshy_filter_chain.rb",
      "tests/append_after_test.rb",
