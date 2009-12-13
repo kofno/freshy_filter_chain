@@ -6,15 +6,15 @@ Freshy gives your ActionController filter chains more consistent inheritence beh
 
 As a plugin:
 
-  ./script/plugin instal git://github.com/kofno/freshy_filter_chain.git
+    ./script/plugin instal git://github.com/kofno/freshy_filter_chain.git
 
 As a gem:
 
-  gem install freshy_filter_chain
+    gem install freshy_filter_chain
 
 And don't forget to add the gem to your rails config
 
-  config.gem "freshy_filter_chain"
+    config.gem "freshy_filter_chain"
 
 ## Links
 
