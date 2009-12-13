@@ -1,1 +1,1 @@
-require 'deferred_filter_chain'
+require 'freshy_filter_chain'
