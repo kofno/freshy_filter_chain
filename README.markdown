@@ -6,7 +6,7 @@ Freshy gives your ActionController filter chains more consistent inheritence beh
 
 As a plugin:
 
-    ./script/plugin instal git://github.com/kofno/freshy_filter_chain.git
+    ./script/plugin install git://github.com/kofno/freshy_filter_chain.git
 
 As a gem:
 
