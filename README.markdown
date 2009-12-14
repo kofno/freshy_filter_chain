@@ -28,7 +28,7 @@ You may not. In general, the Rails community tends to treat plugins as extension
 Of course, the other use of plugins is to extend the application's functionality. When writing an extension, its quite common to re-open the application controller and update the filters. In this scenario, depending on how the code loads, extension filters may not be inherited by subclasses. This is exactly the scenario freshy was created to fix.
 
 [More information on inheritable attributes and filter chains](http://wiki.github.com/kofno/freshy_filter_chain/rails-inheritable-attributes)
-
+[How it works](http://wiki.github.com/kofno/freshy_filter_chain/how-it-works)
 
 
 
