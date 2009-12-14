@@ -23,7 +23,7 @@ And don't forget to add the gem to your rails config
 
 ## Why would I need this?
 
-You may not. In general, the Rails community tends to treat plugins a extensions to Rails, and application code builds on Rails and the plugins. For this scenario, the default filter chain inheritence is fine.
+You may not. In general, the Rails community tends to treat plugins as extensions to Rails, and application code builds on Rails and the plugins. For this scenario, the default filter chain inheritence is fine.
 
 Of course, the other use of plugins is to extend the application's functionality. When writing an extension, its quite common to re-open the application controller and update the filters. In this scenario, depending on how the code loads, extension filters may not be inherited by subclasses. This is exactly the scenario freshy was created to fix.
 
