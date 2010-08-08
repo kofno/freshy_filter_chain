@@ -1,3 +1,8 @@
+
+# We've renamed and moved
+
+ [Find us here now](http://github.com/kofno/rails_inheritable_attributes_manager)
+
 # Freshy Filter Chains: Get yourself a freshy!
 
 Freshy gives your ActionController filter chains more consistent inheritence behavior, regardless of the order the code is loaded.
